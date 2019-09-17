@@ -1,6 +1,52 @@
 html
     font-size: 10px
+
 body
-    background: #fff
-    font-size: 1rem
-    font: 1em sans-serif
+    color: #42515a
+    font-size: 1.6rem
+    margin: 0
+    font-family: 'Roboto-Reg'
+    overflow-y: scroll
+.container
+    max-width: 960px
+    margin: 0 auto
+    position: relative
+    width: 100%
+
+a
+    text-decoration: none
+    color: #42515a
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li
+    margin: 0
+    padding: 0
+
+div,
+span,
+input
+    box-sizing: border-box
+/* HELPERS */
+.df
+    display: flex
+
+.justify-content-between
+    justify-content: space-between
+
+.align-items-center
+    align-items: center
+
+.slick-next,
+.slick-prev
+    display: none!important
+/* IMPORT */
+@import 'fonts.sass'
+@import 'header.sass'
+@import 'in-two-weeks.sass'

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="299.268" height="234.004" viewBox="0 0 299.268 234.004">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6ebee;
+      }
+
+      .cls-2 {
+        fill: #60717a;
+        font-size: 20px;
+        font-family: Roboto-Regular, Roboto;
+        text-decoration: line-through;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #39a02e;
+      }
+
+      .cls-4 {
+        stroke-linejoin: round;
+      }
+
+      .cls-5, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 36px;
+        font-family: Roboto-Bold, Roboto;
+        font-weight: 700;
+      }
+
+      .cls-6, .cls-7 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_11" data-name="Group 11" transform="translate(-834.734 -244.998)">
+    <path id="Shape_6_copy_2" data-name="Shape 6 copy 2" class="cls-1" d="M911.986,245l77.252,77.252L911.986,399.5,834.734,322.25Z"/>
+    <text id="_1980руб." data-name="1980руб." class="cls-2" transform="translate(912 327)"><tspan x="-40.962" y="0">1980руб.</tspan></text>
+    <path id="Shape_6" data-name="Shape 6" class="cls-3" d="M1025.5,262,1134,370.5,1025.5,479,917,370.5Z"/>
+    <g id="Shape_6_copy" data-name="Shape 6 copy" class="cls-4">
+      <path class="cls-6" d="M 1025.499877929688 469.0881958007812 L 926.9117431640625 370.4999084472656 L 1025.499877929688 271.91162109375 L 1124.088134765625 370.4999084472656 L 1025.499877929688 469.0881958007812 Z"/>
+      <path class="cls-7" d="M 1025.499877929688 273.3258361816406 L 928.325927734375 370.4999084472656 L 1025.499877929688 467.6739807128906 L 1122.673828125 370.4999084472656 L 1025.499877929688 273.3258361816406 M 1025.499877929688 270.4974060058594 L 1125.502319335938 370.4999084472656 L 1025.499877929688 470.5024108886719 L 925.49755859375 370.4999084472656 L 1025.499877929688 270.4974060058594 Z"/>
+    </g>
+    <text id="_990_руб." data-name="990 руб." class="cls-5" transform="translate(1026 381)"><tspan x="-70.11" y="0">990 руб.</tspan></text>
+  </g>
+</svg>

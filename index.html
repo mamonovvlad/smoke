@@ -2,16 +2,244 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Smoke</title>
-    <link rel="stylesheet" href="src/Css/main.css">
+    <link rel="stylesheet" href="src/css/slick.css">
+    <link rel="stylesheet" href="src/css/slick-theme.css">
+    <link rel="stylesheet" href="src/css/main.css" />
 </head>
 
 <body>
-    <h1>fghjkl</h1>
-    sdyxfcugvh
+    <header class="header" id="header">
+        <div class="menu df">
+            <div class="menu-box df justify-content-between align-items-center">
+                <div class="menu-box__logo">
+                    <img src="src/img/header/logo.svg" alt="" />
+                </div>
+                <div class="menu-box__text">
+                    <ul class="df">
+                        <li><a href="#">Преимущества</a></li>
+                        <li><a href="#">Экспертное мнение</a></li>
+                        <li><a href="#">Состав</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-content">
+            <div class="container">
+                <div class="header-box df  ">
+                    <div class="header-box__block one">
+                        <div class="header-box__title">
+                            <h1>Бросьте курить сегодня</h1>
+                        </div>
+                        <div class="header-box__list">
+                            <ul>
+                                <li class="dots">
+                                    <div class="list-icon__box ">
+                                        <div class="list-icon  df align-items-center">
+                                            <div class="list-icon__img">
+                                                <svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="95.124"
+                                                    height="95.124" viewBox="0 0 95.124 95.124">
+                                                    <defs>
+                                                        <style>
+                                                            .cls-1 {
+                                                                fill: #fff;
+                                                                stroke: #60727b;
+                                                                stroke-linejoin: round;
+                                                                stroke-width: 2px;
+                                                            }
+                                                        </style>
+                                                    </defs>
+                                                    <circle id="Shape_4_copy" data-name="Shape 4 copy" class="cls-1"
+                                                        cx="47.562" cy="47.562" r="46.562" />
+                                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object"
+                                                        x="20.812" y="22.812" width="53" height="52"
+                                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA0CAYAAAAqunDVAAADuUlEQVRoge1ay23bQBAdCy5AAK88yAALsCuIVIGlCmJVEKcCJRXYrsBKBbIrEF1BVAAPOvBKxB0kGOmNNN5dfkxyGfrzAMPSznLItzs7P4rqIguj6yyM/mZh9MNUkYXRKAujP1kY/Xapz8JojWvPHbLaegUDa6Q6hpj5xXHFCHLroYEx/g8tSTO9OzQh1Vu8S1In1oiBLIx4u2+IaJpjLn1BTER3QZo8FJICoXWZDfcMs9OS57lShH5iNQRfId8Q0XfjunPsLmNiad0vFOG6jSGro5cXfyHyMlJibnGQJi9cbBZG4sGegzSJDdnhsykz5BvHtbX0QrZiD9nEUTzLg1kSoq0xx0RcIK+r9zBWm1SQJrdEdBakiWkiLOObn+HPQpAmE1xrPXgTvYIy8ysEbuJEkYxK5E300nuNU1V3asz5mDXaU3zonXLFjL7hEMOqkrJiRt+gY9hnlv5W8EnqreBDkpLc7M6S9BiFLp2rSLM65o4OGiCCbZV8rEsUkqJj9cul/CW6QFZJjxjBC/DI/4M0cZUGnaGsnOfC8JuLSAGeYa63XZJDcbmrqJ2k0GRcGWbGO/FkVqtQNsJOTtV8NsmZq2bygUJSWRhdIYeS3Vlyf6LKucF5W6DHIJgHabK0JreMXFJZGE2xQwQzmtXJ+XCDlVoY78Q0qYEaZJO7x1cmNMkjxHP5vLl64XRsilyokHCTN9cHdJy6x8oKoaKzMIWZLSzJkRib6xz6hmrBuiGFcyQrOS8hpFHoFaFnjq/nuI93yE7JiscIuK0B+h6M+3jFQLlkQhfWB0TvCM7ILynEF0K643QMTQEzFJO+9HEPk5ScpVbNzoFHDHn3ggP1Vu/JkrYL2SnvpHRCWydPY4+2tkb3qZTZfeosD2zUdoZLH1uj+7H/1lKrS6rs/HWSxObhVEX8Uc4cC4Y3q4rCQN0mBurhXK/424To99UUPRyDU3i9cc7ZaBMSdDcoUdrMBXWLYXmC7Fl+QeKlRNBlAbL3ofreJtjqJie46Ro7xVlF4Vu6mqREP7v6Czom0ZXPcQXELzIiXkn8Hsj5m6CGhK6Vbu95H+nKNwujlbL73ALxNTBMO8a7Xu/QReJcvf1eqVf/TQjJudm1BqxJnnAghXbWTMWtdV1TZJPDDulKurM0ydVNMttjW3STSr0izsxCJa1VWgOtwyJFx67svaOPFyOu6XbZCIF1bHizGN2ozru1TlICnKvFKwPzBjvruz7LRelP4xgwSd413hH+bOZxvCtM5lfXpmaBiP4ByBx8kZ0dlXgAAAAASUVORK5CYII=" />
+                                                </svg>
+                                            </div>
+                                            <div class="list-text">
+                                                <p>Курс от 14 дней</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dots">
+                                    <div class="list-icon__box  ">
+                                        <div class="list-icon  df align-items-center">
+                                            <div class="list-icon__img">
+                                                <svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="95.124"
+                                                    height="95.124" viewBox="0 0 95.124 95.124">
+                                                    <defs>
+                                                        <style>
+                                                            .cls-1 {
+                                                                fill: #fff;
+                                                                stroke: #60727b;
+                                                                stroke-linejoin: round;
+                                                                stroke-width: 2px;
+                                                            }
+                                                        </style>
+                                                    </defs>
+                                                    <circle id="Shape_4_copy" data-name="Shape 4 copy" class="cls-1"
+                                                        cx="47.562" cy="47.562" r="46.562" />
+                                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object"
+                                                        x="20.812" y="22.812" width="53" height="52"
+                                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA0CAYAAAAqunDVAAADuUlEQVRoge1ay23bQBAdCy5AAK88yAALsCuIVIGlCmJVEKcCJRXYrsBKBbIrEF1BVAAPOvBKxB0kGOmNNN5dfkxyGfrzAMPSznLItzs7P4rqIguj6yyM/mZh9MNUkYXRKAujP1kY/Xapz8JojWvPHbLaegUDa6Q6hpj5xXHFCHLroYEx/g8tSTO9OzQh1Vu8S1In1oiBLIx4u2+IaJpjLn1BTER3QZo8FJICoXWZDfcMs9OS57lShH5iNQRfId8Q0XfjunPsLmNiad0vFOG6jSGro5cXfyHyMlJibnGQJi9cbBZG4sGegzSJDdnhsykz5BvHtbX0QrZiD9nEUTzLg1kSoq0xx0RcIK+r9zBWm1SQJrdEdBakiWkiLOObn+HPQpAmE1xrPXgTvYIy8ysEbuJEkYxK5E300nuNU1V3asz5mDXaU3zonXLFjL7hEMOqkrJiRt+gY9hnlv5W8EnqreBDkpLc7M6S9BiFLp2rSLM65o4OGiCCbZV8rEsUkqJj9cul/CW6QFZJjxjBC/DI/4M0cZUGnaGsnOfC8JuLSAGeYa63XZJDcbmrqJ2k0GRcGWbGO/FkVqtQNsJOTtV8NsmZq2bygUJSWRhdIYeS3Vlyf6LKucF5W6DHIJgHabK0JreMXFJZGE2xQwQzmtXJ+XCDlVoY78Q0qYEaZJO7x1cmNMkjxHP5vLl64XRsilyokHCTN9cHdJy6x8oKoaKzMIWZLSzJkRib6xz6hmrBuiGFcyQrOS8hpFHoFaFnjq/nuI93yE7JiscIuK0B+h6M+3jFQLlkQhfWB0TvCM7ILynEF0K643QMTQEzFJO+9HEPk5ScpVbNzoFHDHn3ggP1Vu/JkrYL2SnvpHRCWydPY4+2tkb3qZTZfeosD2zUdoZLH1uj+7H/1lKrS6rs/HWSxObhVEX8Uc4cC4Y3q4rCQN0mBurhXK/424To99UUPRyDU3i9cc7ZaBMSdDcoUdrMBXWLYXmC7Fl+QeKlRNBlAbL3ofreJtjqJie46Ro7xVlF4Vu6mqREP7v6Czom0ZXPcQXELzIiXkn8Hsj5m6CGhK6Vbu95H+nKNwujlbL73ALxNTBMO8a7Xu/QReJcvf1eqVf/TQjJudm1BqxJnnAghXbWTMWtdV1TZJPDDulKurM0ydVNMttjW3STSr0izsxCJa1VWgOtwyJFx67svaOPFyOu6XbZCIF1bHizGN2ozru1TlICnKvFKwPzBjvruz7LRelP4xgwSd413hH+bOZxvCtM5lfXpmaBiP4ByBx8kZ0dlXgAAAAASUVORK5CYII=" />
+                                                </svg>
+                                            </div>
+                                            <div class="list-text">
+                                                <p>Содержит медицинский никотин</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="dots">
+                                    <div class="list-icon__box ">
+                                        <div class="list-icon  df align-items-center">
+                                            <div class="list-icon__img">
+                                                <svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="95.124"
+                                                    height="95.124" viewBox="0 0 95.124 95.124">
+                                                    <defs>
+                                                        <style>
+                                                            .cls-1 {
+                                                                fill: #fff;
+                                                                stroke: #60727b;
+                                                                stroke-linejoin: round;
+                                                                stroke-width: 2px;
+                                                            }
+                                                        </style>
+                                                    </defs>
+                                                    <circle id="Shape_4_copy" data-name="Shape 4 copy" class="cls-1"
+                                                        cx="47.562" cy="47.562" r="46.562" />
+                                                    <image id="Vector_Smart_Object" data-name="Vector Smart Object"
+                                                        x="20.812" y="22.812" width="53" height="52"
+                                                        xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADUAAAA0CAYAAAAqunDVAAADuUlEQVRoge1ay23bQBAdCy5AAK88yAALsCuIVIGlCmJVEKcCJRXYrsBKBbIrEF1BVAAPOvBKxB0kGOmNNN5dfkxyGfrzAMPSznLItzs7P4rqIguj6yyM/mZh9MNUkYXRKAujP1kY/Xapz8JojWvPHbLaegUDa6Q6hpj5xXHFCHLroYEx/g8tSTO9OzQh1Vu8S1In1oiBLIx4u2+IaJpjLn1BTER3QZo8FJICoXWZDfcMs9OS57lShH5iNQRfId8Q0XfjunPsLmNiad0vFOG6jSGro5cXfyHyMlJibnGQJi9cbBZG4sGegzSJDdnhsykz5BvHtbX0QrZiD9nEUTzLg1kSoq0xx0RcIK+r9zBWm1SQJrdEdBakiWkiLOObn+HPQpAmE1xrPXgTvYIy8ysEbuJEkYxK5E300nuNU1V3asz5mDXaU3zonXLFjL7hEMOqkrJiRt+gY9hnlv5W8EnqreBDkpLc7M6S9BiFLp2rSLM65o4OGiCCbZV8rEsUkqJj9cul/CW6QFZJjxjBC/DI/4M0cZUGnaGsnOfC8JuLSAGeYa63XZJDcbmrqJ2k0GRcGWbGO/FkVqtQNsJOTtV8NsmZq2bygUJSWRhdIYeS3Vlyf6LKucF5W6DHIJgHabK0JreMXFJZGE2xQwQzmtXJ+XCDlVoY78Q0qYEaZJO7x1cmNMkjxHP5vLl64XRsilyokHCTN9cHdJy6x8oKoaKzMIWZLSzJkRib6xz6hmrBuiGFcyQrOS8hpFHoFaFnjq/nuI93yE7JiscIuK0B+h6M+3jFQLlkQhfWB0TvCM7ILynEF0K643QMTQEzFJO+9HEPk5ScpVbNzoFHDHn3ggP1Vu/JkrYL2SnvpHRCWydPY4+2tkb3qZTZfeosD2zUdoZLH1uj+7H/1lKrS6rs/HWSxObhVEX8Uc4cC4Y3q4rCQN0mBurhXK/424To99UUPRyDU3i9cc7ZaBMSdDcoUdrMBXWLYXmC7Fl+QeKlRNBlAbL3ofreJtjqJie46Ro7xVlF4Vu6mqREP7v6Czom0ZXPcQXELzIiXkn8Hsj5m6CGhK6Vbu95H+nKNwujlbL73ALxNTBMO8a7Xu/QReJcvf1eqVf/TQjJudm1BqxJnnAghXbWTMWtdV1TZJPDDulKurM0ydVNMttjW3STSr0izsxCJa1VWgOtwyJFx67svaOPFyOu6XbZCIF1bHizGN2ozru1TlICnKvFKwPzBjvruz7LRelP4xgwSd413hH+bOZxvCtM5lfXpmaBiP4ByBx8kZ0dlXgAAAAASUVORK5CYII=" />
+                                                </svg>
+                                            </div>
+                                            <div class="list-text">
+                                                <p>Без побочных эффектов</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-box__block two">
+                        <div class="slider">
+                            <div class="fade">
+
+                                <div class="box-slider__man ">
+                                    <img src="src/img/header/img_man.png" alt="">
+                                </div>
+
+                                <div class="box-slider__woman">
+                                    <img src="src/img/header/img_woman.png" alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-smoke df align-items-center">
+                    <div class="header-smoke__blocker">
+                        <p>
+                            Новый спрей <span>Smoke Blocker</span>, благодаря своему уникальному полностью натуральному
+                            составу,
+                            очищает организм от никотина и других токсинов. Натуральные экстракты трав бережно ухаживают
+                            за слизистой верхних и нижних дыхательных путей, а также предупреждают никотиновую ломку.
+                            Это позволяет быстро и безболезненно избавиться от тяги к курению!
+                        </p>
+                    </div>
+                    <div class="header-smoke__btn">
+                        <button class="btn">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="in_two_weeks">
+        <div class="container">
+            <div class="header-text">
+                Через 2 недели применения Smoke Blocker
+            </div>
+            <div class="content">
+                <div class="breath kol">
+                    <p>
+                        Исчезнет неприятный запах изо рта
+                    </p>
+                </div>
+                <div class="nose kol">
+                    <p>
+                        Восстановится работа обонятельных и вкусовых рецепторов
+                    </p>
+                </div>
+                <div class="leather kol">
+                    <p>
+                        Значительно улучшится состояние кожи и волос
+                    </p>
+                </div>
+                <div class="cough kol">
+                    <p>
+                        Перестанет мучить утренний кашель
+                    </p>
+                </div>
+                <div class="teeth kol">
+                    <p>
+                        Станут белее зубы
+                        и здоровее десны
+                    </p>
+                </div>
+                <div class="tobacco kol">
+                    <p>
+                        Не будет преследовать въевшийся запах табака от одежды
+                    </p>
+                </div>
+            </div>
+            <div class="content_footer">
+                <div class="header">
+                    И все это
+                </div>
+                <div class="footer">
+                    <div class="mood kol">
+                        <p>
+                            Без перепадов <br>
+                            настроения
+                        </p>
+                    </div>
+                    <div class="appetite kol">
+                        <p>
+                            Без повышения <br>
+                            аппетита
+                        </p>
+                    </div>
+                    <div class="libra kol">
+                        <p>
+                            Без набора <br>
+                            веса
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <a href="#">Бросить курить!</a>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+            
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="src/js/slick.min.js"></script>
+    <script src="src/js/main.js"></script>
 </body>
 
 </html>
