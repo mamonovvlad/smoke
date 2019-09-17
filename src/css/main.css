@@ -53,6 +53,12 @@ input {
   -ms-flex-align: center;
   align-items: center; }
 
+.flex-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
 .slick-next,
 .slick-prev {
   display: none !important; }
@@ -69,6 +75,10 @@ input {
 @font-face {
   font-family: 'Roboto-Light';
   src: url(../fonts/Roboto-Light.ttf); }
+
+@font-face {
+  font-family: 'AkzidenzGroteskPro-LightCn';
+  src: url(../fonts/AkzidenzGroteskPro-LightCn.otf); }
 
 #header {
   overflow: hidden; }
@@ -129,6 +139,13 @@ input {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content; }
+  .header-box__title h1::before {
+    position: absolute;
+    content: '';
+    bottom: 2px;
+    border-bottom: 3px solid #ed1c24;
+    left: 0;
+    right: 0; }
 
 .header-box__list {
   margin-top: 30px; }
@@ -398,3 +415,152 @@ input {
         font-family: 'Roboto-Bold';
         -webkit-transition: 500ms;
         transition: 500ms; }
+
+.footer {
+  margin-top: 30px;
+  position: relative; }
+  .footer::after {
+    content: '';
+    background: url(../img/header/bg1.jpg) top center no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0; }
+
+.footer-title h2 {
+  font-size: 4.8rem;
+  white-space: pre-line;
+  font-family: 'Roboto-Bold';
+  color: #ed1c24;
+  position: relative; }
+  .footer-title h2::before {
+    position: absolute;
+    content: '';
+    top: 52px;
+    height: 3px;
+    width: 58%;
+    background-color: #ed1c24;
+    left: 0;
+    right: 0; }
+  .footer-title h2::after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 79%;
+    background-color: #ed1c24;
+    left: 0;
+    bottom: 2px;
+    right: 0; }
+
+.footer-box {
+  padding: 20px 0; }
+
+.footer-box__one {
+  width: 60%;
+  position: relative; }
+
+.footer-box__two {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.footer-smoke {
+  background: #fff;
+  padding: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content; }
+
+.footer-smoke__logo {
+  width: 160px;
+  height: 81px; }
+  .footer-smoke__logo img {
+    width: 100%;
+    height: 100%; }
+
+.footer-discounts__one p {
+  text-transform: uppercase;
+  font-family: 'Roboto-Bold';
+  white-space: pre-line;
+  font-size: 2.5rem;
+  color: #39a02e; }
+
+.footer-discounts__two p {
+  font-size: 6.8rem;
+  text-transform: uppercase;
+  font-family: 'Roboto-Bold';
+  color: #39a02e; }
+
+.footer-stock p {
+  text-align: center;
+  font-size: 2.6rem;
+  font-family: 'Roboto-Bold';
+  color: #60717a; }
+
+.footer-time p {
+  text-align: center;
+  font-family: 'Roboto-Light';
+  font-size: 4.8rem;
+  color: #ed1c24; }
+
+.footer-inp input {
+  background: #f2f5f6;
+  border: 1px solid #afb8bc;
+  padding: 10px 10px;
+  font-size: 1.8rem;
+  margin-top: 12px; }
+
+.footer-btn {
+  margin: 20px 0 0 0; }
+
+.footer-box__slider {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  top: -68px;
+  width: 800px; }
+
+.ministry {
+  background-color: #e6ebee;
+  padding: 20px 0; }
+  .ministry .ministry-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .ministry .ministry-box .ministry-box__address p {
+      white-space: pre-line;
+      font-size: 1.4rem;
+      line-height: 24px; }
+      .ministry .ministry-box .ministry-box__address p span {
+        text-decoration: underline; }
+    .ministry .ministry-box .ministry-box__warning {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .ministry .ministry-box .ministry-box__warning p {
+        font-size: 4rem;
+        font-family: 'AkzidenzGroteskPro-LightCn';
+        text-transform: uppercase;
+        letter-spacing: -2px; }
