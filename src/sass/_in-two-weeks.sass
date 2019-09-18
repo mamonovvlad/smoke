@@ -3,6 +3,7 @@
     z-index: 0
     margin-top: 35px
     font-family: 'Roboto-Bold'
+    // display: none
     &::after
         content: ''
         background: url(../img/in_two_weeks/in_two_weeks_bg.png) top center no-repeat
@@ -27,10 +28,10 @@
         &::after
             content: ''
             position: absolute
-            left: -150px
-            top: 45%
-            width: 475px
-            height: 475px
+            top: 12%
+            right: 95%
+            width: 271px
+            height: 400px
             background: url(../img/in_two_weeks/left.png) center center no-repeat
             // выход за приделы блока
             background-size: contain
@@ -75,7 +76,7 @@
         position: relative
         background-color: #fff
         padding-bottom: 50px
-        padding: 10px 10px 40px
+        padding: 10px 10px 30px
         margin-top: 70px
         box-shadow: 0px 6px 10px -3px #c7ccce
         &::after
@@ -98,8 +99,7 @@
             display: inline
         .footer
             display: flex
-            // margin-bottom: 30px
-            // padding-bottom: -30px
+            justify-content: space-evenly
 
             .kol
                 display: flex
@@ -109,17 +109,17 @@
                 color: #60717a
 
             .mood
-                width: 300px
-                height: 300px
+                width: 200px
+                height: 200px
                 background: url(../img/in_two_weeks/content_footer/1.svg) center center no-repeat
             .appetite
-                width: 300px
-                height: 300px
+                width: 200px
+                height: 200px
                 background: url(../img/in_two_weeks/content_footer/2.svg) center center no-repeat
 
             .libra
-                width: 300px
-                height: 300px
+                width: 200px
+                height: 200px
                 background: url(../img/in_two_weeks/content_footer/3.svg) center center no-repeat
     .button
         text-align: center
@@ -146,3 +146,7 @@
                 padding: 15px 45px
                 font-family: 'Roboto-Bold'
                 transition: 500ms
+.footer__box
+    & p
+        margin-top: 5px
+        text-align: center
