@@ -127,8 +127,8 @@ input {
     top: 0;
     left: 0;
     right: 0;
-    z-index: -1;
-    bottom: -150px; }
+    z-index: -5;
+    bottom: 600px; }
 
 .header-box__title h1 {
   color: #ed1c24;
@@ -360,20 +360,20 @@ main {
   transition: all .3s .5s; }
 
 #in_two_weeks {
-  position: relative;
-  z-index: 0;
-  margin-top: 35px;
-  font-family: 'Roboto-Bold'; }
+  margin-top: 0px;
+  font-family: 'Roboto-Bold';
+  overflow: hidden;
+  padding-bottom: 40px; }
   #in_two_weeks::after {
     content: '';
     background: url(../img/in_two_weeks/in_two_weeks_bg.png) top center no-repeat;
     background-size: cover;
     position: absolute;
-    z-index: -1;
-    top: -40px;
+    z-index: -4;
+    top: 30%;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 390px; }
   #in_two_weeks .header-text {
     font-size: 44px;
     font-family: 'Roboto-Bold';
@@ -516,8 +516,7 @@ main {
   text-align: center; }
 
 #iksperty {
-  position: relative;
-  z-index: 0;
+  padding-top: 40px;
   font-family: 'Roboto-Bold';
   padding-top: 15px;
   overflow: hidden; }
@@ -526,11 +525,11 @@ main {
     background: url(../img/iksperty/bg_3.png) top center no-repeat;
     background-size: cover;
     position: absolute;
-    z-index: -1;
-    top: -40px;
+    z-index: -4;
+    top: 70%;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: -20%; }
   #iksperty .header-text {
     font-size: 4.4rem;
     color: #60717a;
@@ -679,10 +678,10 @@ main {
   #block_four::after {
     content: '';
     background: url(../img/block-four/bg_4.jpg) top center no-repeat;
-    background-size: cover;
+    background-size: 140%;
     position: absolute;
-    z-index: -1;
-    top: -40px;
+    z-index: -2;
+    top: -45%;
     left: 0;
     right: 0;
     bottom: 0; }
@@ -1146,7 +1145,30 @@ main {
   .btn {
     padding: 18px 50px; }
   #in_two_weeks .content .kol {
-    font-size: 12px; } }
+    font-size: 12px; }
+  #header .header-content .container .header-box .header-box__block .header-box__list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* justify-content: center; */
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .header-box__block {
+    width: 100%; }
+  .header-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .header-smoke {
+    position: relative;
+    z-index: 55;
+    margin-top: 450px; } }
 
 @media (max-width: 375px) {
   #in_two_weeks .content .kol {
