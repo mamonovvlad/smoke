@@ -7,12 +7,15 @@
     top: 0
     right: 0
     left: 0
-    z-index: 10
+    z-index: 100
+    box-shadow: 0px -3px 14px 4px #ccc
 .menu-box__logo
     max-width: 160px
     margin-top: 6px
+    transition: .5ms ease
     & img
         width: 100%
+        transition: .5ms ease
 .menu-box
     max-width: 960px
     margin: 0 auto
@@ -31,8 +34,11 @@
         & a
             font-size: 1.8rem
             font-family: 'Roboto-Reg'
+            transition: .5ms ease
 .header-content
     margin-top: 102px
+    position: relative
+    padding-bottom: 175px
     &::after
         content: ''
         background: url(../img/header/bg1.jpg) top center no-repeat
@@ -42,7 +48,7 @@
         left: 0
         right: 0
         z-index: -5
-        bottom: 600px
+        bottom: 0px
 
 .header-box__title h1
     color: #ed1c24
@@ -98,6 +104,7 @@
         font-family: 'Roboto-Light'
 .box-slider__man,
 .box-slider__woman
+    outline: none
     height: 600px
     width: 600px
     & img,
@@ -173,11 +180,12 @@
     flex-direction: column
     font-family: 'Roboto-Bold'
     color: #60717a
-    position: absolute
+    position: fixed
     right: -4px
-    top: 99%
+    top: 100px
+    box-shadow: 0px 14px 14px 4px #ccc
     background-color: #e6ebee
-    bottom: -450%
+    bottom: 0
     padding: 0px 23px
 .menu__links_block
     display: flex
@@ -192,7 +200,6 @@ main
 
 .burger
     width: 90px
-    height: 90px
     display: block
     margin: auto
     overflow: hidden
@@ -202,9 +209,9 @@ main
 .burger > span
     display: block
     position: relative
-    width: 90%
-    height: 10px
-    margin: 15px auto
+    width: 60%
+    height: 8px
+    margin: 8px auto
     background-color: white
     border-radius: 10px
 
@@ -235,3 +242,8 @@ main
     background-color: #ed1c24
     transform: translateY(-85px) rotateZ(-45deg)
     transition: all .3s .5s
+
+.menu .active
+    transition: .5ms ease
+    width: 120px
+    font-size: 1.6rem

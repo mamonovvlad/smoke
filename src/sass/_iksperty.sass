@@ -1,21 +1,20 @@
 #iksperty
-    // position: relative
+    position: relative
     // z-index: 0
     padding-top: 40px
     font-family: 'Roboto-Bold'
     padding-top: 15px
     // display: none
-    overflow: hidden
     &::after
         content: ''
         background: url(../img/iksperty/bg_3.png) top center no-repeat
         background-size: cover
         position: absolute
-        z-index: -4
-        top: 70%
+        z-index: -2
+        top: -265px
         left: 0
         right: 0
-        bottom: -20%
+        bottom: 0%
     .header-text
         font-size: 4.4rem
         color: #60717a
@@ -40,11 +39,13 @@
                 margin: 8px 10px
                 font-size: 1.7rem
         figure
-            position: relative
+            position: absolute
+            right: -70px
+            bottom: 371px
+            margin: 0
+            z-index: -1
             img
-                position: absolute
-                top: -100px
-                left: -150px
+                width: 500px
     & .natural-composition
         margin-top: 44px
         p
@@ -77,65 +78,82 @@
         margin-bottom: 18px
         position: relative
     & .list-icon
+    &.list-icon__one
         display: flex
         &::before
             content: ''
             position: absolute
             display: block
             background-color: #fff
-            height: 114px
-            width: 114px
+            height: 104px
+            width: 104px
             z-index: 1
             top: -4px
-            left: -4px
+            left: -2px
             border-radius: 50px
             box-shadow: 0px 6px 10px -3px #6c6f6f
     & .list-icon__img
+        width: 120px
+        // height: 120px
         position: relative
         z-index: 2
+        & img
+            width: 100%
+            // height: 100%
 
     & .list-text
-        padding: 12px 14px 12px 45px
+        padding: 0
         position: relative
-        right: 20px
+        right: 40px
         z-index: 1
         background-color: #60717a
         display: flex
         flex-direction: column
         width: 100%
+        height: 80px
+        padding: 5px 10px 5px 60px
         & h2
             font-size: 2rem
             color: #fff
         & p
-            white-space: pre-line
+            white-space: inherit
             position: relative
             z-index: 0
             color: #fff
-            transform: translate(-10px, 0px)
             font-size: 2rem
             font-family: 'Roboto-Light'
-    & .box-slider__man,
-    & .box-slider__woman
-        height: 600px
-        width: 600px
-        & img,
+    & .box-slider__man
+        height: 500px
+        width: 100%
         & img
-            height: 100%
+
+    & .box-slider__woman
+        height: 500px
+        width: 100%
+        & img
 
     & .two
         position: relative
 
     & .one
-        width: 60%
+        width: 65%
     & .slider
         position: absolute
-        top: -50px
-        left: -85px
+        top: 0px
+        left: 0px
         bottom: 0
         right: 0
-        width: 895px
-        height: 585px
+        width: 350px
+        height: 470px
         &::before
             display: none
         &::after
             display: none
+.list-icon__one:before
+    content: ''
+    top: -8px
+    left: 4px
+    height: 100px
+    width: 100px
+    position: absolute
+    display: flex
