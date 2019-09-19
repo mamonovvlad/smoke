@@ -66,19 +66,19 @@ input {
 /* IMPORT */
 @font-face {
   font-family: 'Roboto-Reg';
-  src: url(../fonts/Roboto-Regular.ttf); }
+  src: url(../../fonts/Roboto-Regular.ttf); }
 
 @font-face {
   font-family: 'Roboto-Bold';
-  src: url(../fonts/Roboto-Bold.ttf); }
+  src: url(../../fonts/Roboto-Bold.ttf); }
 
 @font-face {
   font-family: 'Roboto-Light';
-  src: url(../fonts/Roboto-Light.ttf); }
+  src: url(../../fonts/Roboto-Light.ttf); }
 
 @font-face {
   font-family: 'AkzidenzGroteskPro-LightCn';
-  src: url(../fonts/AkzidenzGroteskPro-LightCn.otf); }
+  src: url(../../fonts/AkzidenzGroteskPro-LightCn.otf); }
 
 #header {
   overflow: hidden; }
@@ -131,7 +131,7 @@ input {
   padding-bottom: 175px; }
   .header-content::after {
     content: '';
-    background: url(../img/header/bg1.jpg) top center no-repeat;
+    background: url(../../img/header/bg1.jpg) top center no-repeat;
     background-size: cover;
     position: absolute;
     top: 0;
@@ -228,7 +228,7 @@ input {
   .slider::after {
     content: '';
     position: absolute;
-    background: url(../img/header/seal.svg) center no-repeat;
+    background: url(../../img/header/seal.svg) center no-repeat;
     width: 150px;
     height: 154px;
     background-size: auto;
@@ -237,7 +237,7 @@ input {
   .slider::before {
     content: '';
     position: absolute;
-    background: url(../img/header/price.svg) center no-repeat;
+    background: url(../../img/header/price.svg) center no-repeat;
     width: 300px;
     height: 235px;
     background-size: auto;
@@ -386,7 +386,7 @@ main {
   padding-top: 80px; }
   #in_two_weeks::after {
     content: '';
-    background: url(../img/in_two_weeks/in_two_weeks_bg.png) top center no-repeat;
+    background: url(../../img/in_two_weeks/in_two_weeks_bg.png) top center no-repeat;
     background-size: cover;
     position: absolute;
     z-index: -3;
@@ -415,7 +415,7 @@ main {
       right: 95%;
       width: 271px;
       height: 400px;
-      background: url(../img/in_two_weeks/left.png) center center no-repeat;
+      background: url(../../img/in_two_weeks/left.png) center center no-repeat;
       background-size: contain; }
     #in_two_weeks .content .kol {
       display: -webkit-box;
@@ -429,27 +429,27 @@ main {
     #in_two_weeks .content .breath {
       width: 300px;
       height: 300px;
-      background: url(../img/in_two_weeks/1.png) center center no-repeat; }
+      background: url(../../img/in_two_weeks/1.png) center center no-repeat; }
     #in_two_weeks .content .nose {
       width: 300px;
       height: 300px;
-      background: url(../img/in_two_weeks/2.png) center center no-repeat; }
+      background: url(../../img/in_two_weeks/2.png) center center no-repeat; }
     #in_two_weeks .content .leather {
       width: 300px;
       height: 300px;
-      background: url(../img/in_two_weeks/3.png) center center no-repeat; }
+      background: url(../../img/in_two_weeks/3.png) center center no-repeat; }
     #in_two_weeks .content .cough {
       width: 300px;
       height: 300px;
-      background: url(../img/in_two_weeks/4.png) center center no-repeat; }
+      background: url(../../img/in_two_weeks/4.png) center center no-repeat; }
     #in_two_weeks .content .teeth {
       width: 300px;
       height: 300px;
-      background: url(../img/in_two_weeks/5.png) center center no-repeat; }
+      background: url(../../img/in_two_weeks/5.png) center center no-repeat; }
     #in_two_weeks .content .tobacco {
       width: 300px;
       height: 300px;
-      background: url(../img/in_two_weeks/6.png) center center no-repeat; }
+      background: url(../../img/in_two_weeks/6.png) center center no-repeat; }
   #in_two_weeks .content_footer {
     position: relative;
     background-color: #fff;
@@ -465,7 +465,7 @@ main {
       top: -150px;
       width: 300px;
       height: 300px;
-      background: url(../img/in_two_weeks/right.png) center center no-repeat;
+      background: url(../../img/in_two_weeks/right.png) center center no-repeat;
       background-size: contain; }
     #in_two_weeks .content_footer .header {
       color: #39a02e;
@@ -495,15 +495,15 @@ main {
       #in_two_weeks .content_footer .footer .mood {
         width: 200px;
         height: 200px;
-        background: url(../img/in_two_weeks/content_footer/1.svg) center center no-repeat; }
+        background: url(../../img/in_two_weeks/content_footer/1.svg) center center no-repeat; }
       #in_two_weeks .content_footer .footer .appetite {
         width: 200px;
         height: 200px;
-        background: url(../img/in_two_weeks/content_footer/2.svg) center center no-repeat; }
+        background: url(../../img/in_two_weeks/content_footer/2.svg) center center no-repeat; }
       #in_two_weeks .content_footer .footer .libra {
         width: 200px;
         height: 200px;
-        background: url(../img/in_two_weeks/content_footer/3.svg) center center no-repeat; }
+        background: url(../../img/in_two_weeks/content_footer/3.svg) center center no-repeat; }
   #in_two_weeks .button {
     text-align: center;
     margin-top: 60px; }
@@ -542,7 +542,7 @@ main {
   padding-top: 15px; }
   #iksperty::after {
     content: '';
-    background: url(../img/iksperty/bg_3.png) top center no-repeat;
+    background: url(../../img/iksperty/bg_3.png) top center no-repeat;
     background-size: cover;
     position: absolute;
     z-index: -2;
@@ -710,7 +710,7 @@ main {
   position: relative; }
   #block_four::after {
     content: '';
-    background: url(../img/block-four/bg_4.png) top center no-repeat;
+    background: url(../../img/block-four/bg_4.png) top center no-repeat;
     position: absolute;
     z-index: -2;
     top: -45%;
@@ -749,7 +749,7 @@ main {
         top: calc(50% - 112.5px);
         width: 225px;
         height: 225px;
-        background: url(../img/block-four/Layer_25.png) center center no-repeat;
+        background: url(../../img/block-four/Layer_25.png) center center no-repeat;
         background-size: contain; }
       #block_four .block_box-left-one .block-left-one h6 {
         font-family: 'Roboto-Bold';
@@ -780,7 +780,7 @@ main {
         top: calc(50% - 112.5px);
         width: 225px;
         height: 225px;
-        background: url(../img/block-four/Layer_24.png) center center no-repeat;
+        background: url(../../img/block-four/Layer_24.png) center center no-repeat;
         background-size: contain; }
       #block_four .block_box-left-three .block-left-three h6 {
         font-family: 'Roboto-Bold';
@@ -818,7 +818,7 @@ main {
         top: calc(50% - 112.5px);
         width: 225px;
         height: 225px;
-        background: url(../img/block-four/Layer_23.png) center center no-repeat;
+        background: url(../../img/block-four/Layer_23.png) center center no-repeat;
         background-size: contain; }
       #block_four .block_box-right-two .block-right-two h6 {
         font-family: 'Roboto-Bold';
@@ -858,7 +858,7 @@ main {
         top: calc(50% - 112.5px);
         width: 225px;
         height: 225px;
-        background: url(../img/block-four/Layer_22.png) center center no-repeat;
+        background: url(../../img/block-four/Layer_22.png) center center no-repeat;
         background-size: contain; }
       #block_four .block_box-right-four .block-right-four h6 {
         font-family: 'Roboto-Bold';
@@ -873,7 +873,7 @@ main {
   position: relative; }
   #footer::after {
     content: '';
-    background: url(../img/block-four/bg_5.png) top center no-repeat;
+    background: url(../../img/block-four/bg_5.png) top center no-repeat;
     background-size: cover;
     position: absolute;
     top: -380px;
@@ -933,7 +933,7 @@ main {
   .footer-box__one::after {
     content: '';
     position: absolute;
-    background: url(../img/footer/img.png) center no-repeat;
+    background: url(../../img/footer/img.png) center no-repeat;
     width: 200px;
     height: 200px;
     background-size: auto;
@@ -943,7 +943,7 @@ main {
   .footer-box__one::before {
     content: '';
     position: absolute;
-    background: url(../img/footer/price.png) center no-repeat;
+    background: url(../../img/footer/price.png) center no-repeat;
     width: 300px;
     height: 300px;
     background-size: auto;
@@ -1068,7 +1068,7 @@ main {
   .footer-box__one::after {
     content: '';
     position: absolute;
-    background: url(../img/footer/img.png) center no-repeat;
+    background: url(../../img/footer/img.png) center no-repeat;
     width: 200px;
     height: 200px;
     background-size: auto;
@@ -1087,7 +1087,7 @@ main {
   .slider::before {
     content: '';
     position: absolute;
-    background: url(../img/header/price.svg) center no-repeat;
+    background: url(../../img/header/price.svg) center no-repeat;
     width: 200px;
     height: 235px;
     background-size: contain;
@@ -1097,7 +1097,7 @@ main {
   .slider::after {
     content: '';
     position: absolute;
-    background: url(../img/header/seal.svg) center no-repeat;
+    background: url(../../img/header/seal.svg) center no-repeat;
     width: 120px;
     height: 154px;
     background-size: contain;
@@ -1168,7 +1168,7 @@ main {
   .footer-box__one::before {
     content: '';
     position: absolute;
-    background: url(../img/footer/price.png) center no-repeat;
+    background: url(../../img/footer/price.png) center no-repeat;
     width: 150px;
     height: 150px;
     background-size: contain;
@@ -1178,7 +1178,7 @@ main {
   .footer-box__one::after {
     content: '';
     position: absolute;
-    background: url(../img/footer/img.png) center no-repeat;
+    background: url(../../img/footer/img.png) center no-repeat;
     width: 200px;
     height: 200px;
     background-size: auto;
@@ -1207,6 +1207,8 @@ main {
     right: 0; } }
 
 @media (max-width: 768px) {
+  .menu__links {
+    top: 80px; }
   #header .header-content .container .header-smoke {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1216,7 +1218,7 @@ main {
     font-size: 14px;
     width: 70px; }
   .slider::before {
-    background: url(../img/header/price.svg) center no-repeat;
+    background: url(../../img/header/price.svg) center no-repeat;
     width: 140px;
     height: 235px;
     background-size: contain;
@@ -1304,7 +1306,7 @@ main {
   .footer-box__one::after {
     content: '';
     position: absolute;
-    background: url(../img/footer/img.png) center no-repeat;
+    background: url(../../img/footer/img.png) center no-repeat;
     width: 200px;
     height: 200px;
     background-size: auto;
@@ -1313,7 +1315,7 @@ main {
   .footer-box__one::before {
     content: '';
     position: absolute;
-    background: url(../img/footer/price.png) center no-repeat;
+    background: url(../../img/footer/price.png) center no-repeat;
     width: 180px;
     height: 180px;
     background-size: contain;
