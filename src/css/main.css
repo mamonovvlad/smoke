@@ -684,8 +684,8 @@ main {
     width: 65%; }
   #iksperty .container .composition_content .slider {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 10px;
+    left: -15px;
     bottom: 0;
     right: 0;
     width: 350px;
@@ -1019,9 +1019,8 @@ main {
 
 .footer-box__slider {
   position: absolute;
-  right: 10%;
-  bottom: 0;
-  top: -68px;
+  right: -5%;
+  top: -20px;
   width: 800px; }
 
 .ministry {
@@ -1054,6 +1053,9 @@ main {
         font-family: 'AkzidenzGroteskPro-LightCn';
         text-transform: uppercase;
         letter-spacing: -2px; }
+
+#footer .box-slider__man img, #footer .box-slider__man img, #footer .box-slider__woman img, #footer .box-slider__woman img {
+  height: 85%; }
 
 @media (max-width: 1440px) {
   #in_two_weeks .content_footer::after {
@@ -1232,7 +1234,7 @@ main {
   #in_two_weeks .content_footer .header {
     margin: 0; }
   #in_two_weeks .content_footer {
-    margin: 50px 15px;
+    margin: 75px 15px;
     padding: 15px 8px 75px 8px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1286,8 +1288,9 @@ main {
     background-size: cover; }
   .footer-box__slider {
     position: absolute;
-    right: -31%;
-    top: -116px; }
+    right: 12%;
+    top: -70px;
+    width: 458px; }
   .footer-box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1400,11 +1403,13 @@ main {
   #in_two_weeks .content_footer .footer .footer__box p {
     font-size: 15px; }
   #footer .box-slider__man img, #footer .box-slider__man img, #footer .box-slider__woman img, #footer .box-slider__woman img {
-    height: 55%; }
+    height: 50%; }
+  #iksperty .container .composition_content .slider {
+    width: 340px; }
   .footer-box__slider {
     right: 6%;
-    top: -78px;
-    width: 429px; }
+    top: -3px;
+    width: 306px; }
   .footer-box__one::before {
     width: 159px;
     height: 180px;
@@ -1428,7 +1433,9 @@ main {
     background-color: #ed1c24;
     left: 0;
     bottom: 2px;
-    right: 0; } }
+    right: 0; }
+  .header-smoke__blocker {
+    margin-top: 450px; } }
 
 @media (max-width: 375px) {
   #in_two_weeks .content .kol {
@@ -1510,8 +1517,10 @@ main {
   #iksperty .container .composition_content .slider {
     display: block;
     position: inherit;
-    width: 265px;
+    width: 348px;
     height: 440px; }
+  #iksperty .container .composition_content .header-box__list {
+    margin-top: 100px; }
   #iksperty.box-slider__man img, .box-slider__man img, .box-slider__woman img, .box-slider__woman img {
     margin-top: 30px; }
   .header-box__block .two {
@@ -1562,10 +1571,11 @@ main {
   .footer__box,
   .footerbox {
     margin: 10px 0; }
-  #iksperty.box-slider__man img, .box-slider__man img, .box-slider__woman img, .box-slider__woman img {
-    margin: 0; }
   .header .slider {
-    height: 390px; }
+    height: 390px;
+    top: -50px; }
+  .header-smoke__blocker {
+    margin-top: 350px; }
   .header-box__list {
     padding: 0; }
   .list-text {
