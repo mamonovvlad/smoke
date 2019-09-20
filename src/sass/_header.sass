@@ -44,8 +44,8 @@
                 height: 2px
                 left: 50%
                 right: 50%
-                background: #ed1c24
                 transition: 500ms ease
+
             &:hover:after
                 position: absolute
                 content: ''
@@ -214,6 +214,25 @@
 
 .menu__links-item
     margin-top: 30px
+    position: relative
+    transition: 500ms ease
+    &:after
+        position: absolute
+        content: ''
+        bottom: -4px
+        height: 2px
+        left: 50%
+        right: 50%
+        transition: 500ms ease
+    &:hover:after
+        position: absolute
+        content: ''
+        bottom: -4px
+        height: 2px
+        left: 0%
+        right: 0%
+        background: #ed1c24
+        transition: 500ms ease
 
 main
     display: table-cell
@@ -268,3 +287,6 @@ main
     transition: .5ms ease
     width: 120px
     font-size: 1.6rem
+.header .menu__links_act
+    top: 80px
+    transition: 100ms ease

@@ -8,18 +8,24 @@ $(document).ready(function () {
     if ($(window).scrollTop() >= scr && scro <= scr2) {
       $('.menu-box__logo').removeClass('active');
       $('.menu-box__text li a').removeClass('active');
+      $('.menu__links').removeClass('menu__links_act');
     } else {
       $('.menu-box__logo').addClass('active');
       $('.menu-box__text li a').addClass('active');
+      $('.menu__links').addClass('menu__links_act');
 
       $('.menu-box__logo').css({
-        'transition': '.5s'
+        'transition': '500ms'
+      });
+      $('.menu-menu__links_act').css({
+        'transition': '100ms'
       });
       $('.menu-box__text li a').css({
-        'transition': '.5s'
+        'transition': '500ms'
       });
     }
   });
+
 
 
 
