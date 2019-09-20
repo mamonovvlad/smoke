@@ -80,6 +80,10 @@ input {
   font-family: 'AkzidenzGroteskPro-LightCn';
   src: url(../../fonts/AkzidenzGroteskPro-LightCn.otf); }
 
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url(../../fonts/Roboto-Light.ttf); }
+
 #header {
   overflow: hidden; }
 
@@ -193,11 +197,11 @@ input {
   position: absolute;
   display: block;
   background-color: #fff;
-  height: 104px;
-  width: 104px;
+  height: 100px;
+  width: 100px;
   z-index: 1;
   top: -4px;
-  left: -4px;
+  left: -3px;
   border-radius: 50px;
   -webkit-box-shadow: 0px 6px 10px -3px #6c6f6f;
   box-shadow: 0px 6px 10px -3px #6c6f6f; }
@@ -588,7 +592,7 @@ main {
   position: relative;
   padding-top: 40px;
   font-family: 'Roboto-Bold';
-  padding-top: 15px; }
+  padding-top: 80px; }
   #iksperty::after {
     content: '';
     background: url(../../img/iksperty/bg_3.png) top center no-repeat;
@@ -664,7 +668,8 @@ main {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 40px; }
   #iksperty .container .composition_content .header-box__list {
     margin-top: 30px; }
     #iksperty .container .composition_content .header-box__list ul li {
@@ -715,6 +720,7 @@ main {
       font-size: 2rem;
       color: #fff; }
     #iksperty .container .composition_content .list-text p {
+      padding: 0 10px;
       white-space: inherit;
       position: relative;
       z-index: 0;
@@ -737,7 +743,7 @@ main {
     left: -15px;
     bottom: 0;
     right: 0;
-    width: 350px;
+    width: 370px;
     height: 470px; }
     #iksperty .container .composition_content .slider::before {
       display: none; }
@@ -746,17 +752,54 @@ main {
 
 .list-icon__one:before {
   content: '';
-  top: -8px;
-  left: 4px;
-  height: 100px;
-  width: 100px;
+  top: -4px;
+  left: 9px;
+  height: 93px;
+  width: 93px;
   position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
+.list-icon__two:before {
+  content: '';
+  top: -3px;
+  left: 3px;
+  height: 98px;
+  width: 98px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.list-icon__three:before {
+  content: '';
+  top: -2px;
+  left: 0px;
+  height: 101px;
+  width: 101px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.list-icon__four:before {
+  content: '';
+  top: -2px;
+  left: -1px;
+  height: 102px;
+  width: 102px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+#natural-composition {
+  padding-top: 76px; }
+
 #block_four {
-  position: relative; }
+  position: relative;
+  padding-top: 91px; }
   #block_four::after {
     content: '';
     background: url(../../img/block-four/bg_4.png) top center no-repeat;
@@ -916,6 +959,9 @@ main {
         padding-right: 40px;
         margin-top: 10px;
         margin-bottom: 10px; }
+  #block_four .lok .kolon {
+    -webkit-box-shadow: 7px 7px 15px -5px #000000a1;
+    box-shadow: 7px 7px 15px -5px #000000a1; }
 
 #footer {
   margin-top: 30px;
@@ -1098,8 +1144,7 @@ main {
     justify-content: space-between; }
     .ministry .ministry-box .ministry-box__address p {
       white-space: pre-line;
-      font-size: 1.4rem;
-      line-height: 24px; }
+      font-size: 1.4rem; }
       .ministry .ministry-box .ministry-box__address p span {
         text-decoration: underline; }
     .ministry .ministry-box .ministry-box__warning {
@@ -1224,7 +1269,7 @@ main {
     height: 75%; }
   .footer-box__slider {
     position: absolute;
-    right: -31%;
+    right: -32%;
     top: -68px; }
   .footer-box__one::before {
     content: '';
@@ -1479,14 +1524,14 @@ main {
   #iksperty .container .composition_content .slider {
     width: 340px; }
   .footer-box__slider {
-    right: 6%;
+    right: -8%;
     top: -3px;
-    width: 306px; }
+    width: 390px; }
   .footer-box__one::before {
     width: 159px;
     height: 180px;
-    left: 60%;
-    top: 69px;
+    left: 64%;
+    top: 39px;
     z-index: 1; }
   .footer-box__two {
     margin-top: 305px; }
@@ -1567,8 +1612,20 @@ main {
     padding: 10px; }
   .list-text {
     width: 100%; }
+  #iksperty .container .composition_content .list-text p {
+    font-size: 1.7rem; }
+  #iksperty .container .composition_content .list-text h2 {
+    font-size: 1.9rem; }
   #header .header-content .container .header-box .header-box__block .header-box__list ul .dots .list-icon__box .list-icon .list-text p {
-    width: 100%; } }
+    width: 100%; }
+  #iksperty .container .composition_content .slider {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    bottom: 0;
+    right: 0;
+    width: 370px;
+    height: 470px; } }
 
 @media (max-width: 768px) {
   #iksperty .container .composition_content {
@@ -1589,12 +1646,12 @@ main {
   #iksperty .container .composition_content .slider {
     display: block;
     position: inherit;
-    width: 348px;
+    width: 300px;
     height: 440px; }
   #iksperty .container .composition_content .header-box__list {
     margin-top: 100px; }
   #iksperty.box-slider__man img, .box-slider__man img, .box-slider__woman img, .box-slider__woman img {
-    margin-top: 30px; }
+    margin-top: 10px; }
   .header-box__block .two {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1603,10 +1660,9 @@ main {
     -ms-flex-pack: center;
     justify-content: center; }
   #iksperty .container .composition_content .list-text p {
-    font-size: 1.4rem;
-    margin-left: 10px; }
+    font-size: 1.3rem; }
   #iksperty .container .composition_content .list-text h2 {
-    font-size: 1.6rem; }
+    font-size: 1.5rem; }
   #iksperty .container .composition_content .list-text {
     height: 65px; }
   #iksperty .container .composition_content .list-text {
@@ -1631,7 +1687,7 @@ main {
   .box-slider__man, .box-slider__woman {
     height: 400px; }
   .box-slider__man img, .box-slider__man img, .box-slider__woman img, .box-slider__woman img {
-    height: 100%; } }
+    height: 82%; } }
 
 @media (max-width: 375px) {
   .header .header-content .container .header-box .header-box__block .header-box__title h1 {
@@ -1645,7 +1701,8 @@ main {
     margin: 10px 0; }
   .header .slider {
     height: 390px;
-    top: -50px; }
+    top: -10px;
+    left: -110px; }
   .header-smoke__blocker {
     margin-top: 350px; }
   .header-box__list {
@@ -1658,8 +1715,7 @@ main {
     right: 25px;
     padding: 5px 10px 5px 30px; }
   #iksperty .container .composition_content .list-text p {
-    font-size: 1.2rem;
-    margin-left: 10px; }
+    font-size: 1.2rem; }
   #iksperty .container .composition_content .list-text h2 {
     font-size: 1.4rem; }
   .list-icon::before {
