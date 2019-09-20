@@ -28,13 +28,34 @@
     & li
         padding: 10px 16px 10px 17px
         border-right: 1px solid
+        transition: 500ms ease
         &:last-child
             border-right: none
             padding-right: 0
         & a
             font-size: 1.8rem
             font-family: 'Roboto-Reg'
-            transition: .5ms ease
+            position: relative
+            transition: 500ms ease
+            &:after
+                position: absolute
+                content: ''
+                bottom: -4px
+                height: 2px
+                left: 50%
+                right: 50%
+                background: #ed1c24
+                transition: 500ms ease
+            &:hover:after
+                position: absolute
+                content: ''
+                bottom: -4px
+                height: 2px
+                left: 0%
+                right: 0%
+                background: #ed1c24
+                transition: 500ms ease
+
 .header-content
     margin-top: 102px
     position: relative
